@@ -6,10 +6,10 @@ public class MovieLibrary {
 
     private MovieLibrary() {
 
-        movies.put("F001", new RegularMovie("You've Got Mail");
-        movies.put("F002", new Movie("Matrix", "regular"));
-        movies.put("F003", new Movie("Cars", "childrens"));
-        movies.put("F004", new Movie("Fast & Furious X", "new"));
+        movies.put("F001", new RegularMovie("You've Got Mail"));
+        movies.put("F002", new RegularMovie("Matrix"));
+        movies.put("F003", new ChildrensMovie("Cars"));
+        movies.put("F004", new NewMovie("Fast & Furious X"));
     }
 
     public static MovieLibrary getInstance()
