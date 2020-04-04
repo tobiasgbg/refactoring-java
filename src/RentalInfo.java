@@ -4,7 +4,7 @@ public class RentalInfo {
 
   public String statement(Customer customer) {
 
-    MovieLibrary movieLibrary = new MovieLibrary();
+    MovieLibrary movieLibrary = MovieLibrary.getInstance();
 
     HashMap<String, Movie> movies = movieLibrary.getMovies();
 
