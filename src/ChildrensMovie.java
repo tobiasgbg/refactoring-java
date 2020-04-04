@@ -1,4 +1,4 @@
-public abstract class Movie {
+public class ChildrensMovie extends Movie {
     private String title;
     private String code;
 
