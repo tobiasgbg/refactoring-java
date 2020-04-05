@@ -9,4 +9,8 @@ public abstract class Movie {
     public String getTitle() {
         return title;
     }
+
+    public abstract double getAmount(int days);
+
+    public abstract double getFrequentEnterPoints(int days);
 }
