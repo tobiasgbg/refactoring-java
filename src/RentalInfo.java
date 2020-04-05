@@ -21,7 +21,7 @@ public class RentalInfo {
       frequentEnterPoints += movie.getFrequentEnterPoints(r.getDays());
   
       //print figures for this rental
-      result += "\t" + movies.get(r.getMovieId()).getTitle() + "\t" + thisAmount + "\n";
+      result += "\t" + movie.getTitle() + "\t" + thisAmount + "\n";
       totalAmount = totalAmount + thisAmount;
     }
     // add footer lines
